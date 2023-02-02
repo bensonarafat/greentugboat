@@ -1,0 +1,1 @@
+curl "https://api.twitter.com/2/tweets/search/recent?query=conversation_id:1553123865508941824&tweet.fields=in_reply_to_user_id,author_id,created_at,conversation_id" -H "Authorization: Bearer AAAAAAAAAAAAAAAAAAAAAAl7fQEAAAAAJ8jbwLJ1s1x9IINHz53I8vcuVlY%3DwKqZ0NVcmJEubphCYAhHVvnjUUuoPmQJFkVzyvVyO1b2N8zos4"

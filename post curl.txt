@@ -1,0 +1,15 @@
+curl \
+-X POST \
+-H "Content-type: application/json" \
+-d "{\"text\":\"just setting up my #TwitterAPI\"}" \
+-H "Authorization: Bearer TWdCWGFVQ0taSEpEOEo2N3JUMFBVYkNGeUxxQlk3Mm9HbXZ0U3VQVm1VNGZMOjE2NTkzNDgxNjYzMjA6MToxOmF0OjE" \
+"https://api.twitter.com/2/tweets"
+
+
+curl -u 'xvz1evFS4wEEPTGEFPHBog:L8qq9PZyRg6ieKGEKhZolGC0vJWLw8iEJ88DRdyOg' \
+  --data 'grant_type=client_credentials' \
+  'https://api.twitter.com/oauth2/token'
+
+
+
+curl -X POST "https://api.twitter.com/2/tweets" -H "Authorization: OAuth $OAUTH_SIGNATURE" -H "Content-type: application/json" -d '{"direct_message_deep_link":"messsage"}'

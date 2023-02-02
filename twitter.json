@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "conversation_id": "1553123865508941824",
+            "text": "just setting up 2 my #TwitterAPI @realArafatBen",
+            "entities": { "hashtags": [{ "start": 21, "end": 32, "tag": "TwitterAPI" }], "mentions": [{ "start": 33, "end": 47, "username": "realArafatBen", "id": "946760742908452864" }] },
+            "author_id": "1523643984534454272",
+            "id": "1553123865508941824"
+        }
+    ],
+    "includes": { "users": [{ "id": "1523643984534454272", "name": "Green Tugboat", "username": "TheGreenTugboat" }] }
+}
+
+{
+    "data": [
+        { "text": "@TheGreenTugboat yes", "in_reply_to_user_id": "1523643984534454272", "conversation_id": "1553123865508941824", "author_id": "946760742908452864", "id": "1553124286348533760", "created_at": "2022-07-29T21:04:20.000Z" },
+        { "text": "@TheGreenTugboat Hello", "in_reply_to_user_id": "1523643984534454272", "conversation_id": "1553123865508941824", "author_id": "946760742908452864", "id": "1553124226021920774", "created_at": "2022-07-29T21:04:05.000Z" },
+        { "text": "Hello here", "in_reply_to_user_id": "1523643984534454272", "conversation_id": "1553123865508941824", "author_id": "1523643984534454272", "id": "1553124024556965890", "created_at": "2022-07-29T21:03:17.000Z" }
+    ],
+    "meta": { "newest_id": "1553124286348533760", "oldest_id": "1553124024556965890", "result_count": 3 }
+}
